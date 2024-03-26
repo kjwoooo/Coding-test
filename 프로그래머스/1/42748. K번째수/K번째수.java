@@ -2,6 +2,7 @@ import java.util.Arrays;
 
 class Solution {
     public int[] solution(int[] array, int[][] commands) {
+        
         int[] result = new int[commands.length]; 
         
         for(int i=0 ; i< commands.length; i++){
